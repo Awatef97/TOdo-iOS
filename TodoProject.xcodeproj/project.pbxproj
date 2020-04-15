@@ -13,6 +13,10 @@
 		BF76B56923A5282A0058EAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF76B56823A5282A0058EAEB /* Assets.xcassets */; };
 		BF76B56C23A5282A0058EAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76B56A23A5282A0058EAEB /* LaunchScreen.storyboard */; };
 		BF76B56F23A5282A0058EAEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF76B56E23A5282A0058EAEB /* main.m */; };
+		BF76B57723A52AB70058EAEB /* TodoTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF76B57623A52AB70058EAEB /* TodoTableTableViewController.m */; };
+		BF76B57A23A52B120058EAEB /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = BF76B57923A52B120058EAEB /* Tasks.m */; };
+		BF89011E23A89C76002A23E8 /* AddTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89011D23A89C76002A23E8 /* AddTask.m */; };
+		BF942A3723AF97D0002347B2 /* ProgressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF942A3623AF97CF002347B2 /* ProgressTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		BF76B56B23A5282A0058EAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF76B56D23A5282A0058EAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF76B56E23A5282A0058EAEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF76B57523A52AB70058EAEB /* TodoTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableTableViewController.h; sourceTree = "<group>"; };
+		BF76B57623A52AB70058EAEB /* TodoTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableTableViewController.m; sourceTree = "<group>"; };
+		BF76B57823A52B120058EAEB /* Tasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		BF76B57923A52B120058EAEB /* Tasks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		BF89011C23A89C76002A23E8 /* AddTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTask.h; sourceTree = "<group>"; };
+		BF89011D23A89C76002A23E8 /* AddTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTask.m; sourceTree = "<group>"; };
+		BF942A3523AF97CF002347B2 /* ProgressTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressTable.h; sourceTree = "<group>"; };
+		BF942A3623AF97CF002347B2 /* ProgressTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressTable.m; sourceTree = "<group>"; };
+		BFD470B723A893E800FC20B2 /* AddPortocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPortocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,17 @@
 		BF76B55323A528250058EAEB = {
 			isa = PBXGroup;
 			children = (
+				BF942A3523AF97CF002347B2 /* ProgressTable.h */,
+				BF942A3623AF97CF002347B2 /* ProgressTable.m */,
+				BF89011C23A89C76002A23E8 /* AddTask.h */,
+				BF89011D23A89C76002A23E8 /* AddTask.m */,
+				BFD470B723A893E800FC20B2 /* AddPortocol.h */,
+				BF76B57823A52B120058EAEB /* Tasks.h */,
+				BF76B57923A52B120058EAEB /* Tasks.m */,
+				BF76B57523A52AB70058EAEB /* TodoTableTableViewController.h */,
+				BF76B57623A52AB70058EAEB /* TodoTableTableViewController.m */,
+				BF76B56223A528250058EAEB /* ViewController.h */,
+				BF76B56323A528250058EAEB /* ViewController.m */,
 				BF76B55E23A528250058EAEB /* TodoProject */,
 				BF76B55D23A528250058EAEB /* Products */,
 			);
@@ -60,8 +84,6 @@
 			children = (
 				BF76B55F23A528250058EAEB /* AppDelegate.h */,
 				BF76B56023A528250058EAEB /* AppDelegate.m */,
-				BF76B56223A528250058EAEB /* ViewController.h */,
-				BF76B56323A528250058EAEB /* ViewController.m */,
 				BF76B56523A528250058EAEB /* Main.storyboard */,
 				BF76B56823A5282A0058EAEB /* Assets.xcassets */,
 				BF76B56A23A5282A0058EAEB /* LaunchScreen.storyboard */,
@@ -141,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF89011E23A89C76002A23E8 /* AddTask.m in Sources */,
 				BF76B56423A528250058EAEB /* ViewController.m in Sources */,
 				BF76B56F23A5282A0058EAEB /* main.m in Sources */,
+				BF76B57723A52AB70058EAEB /* TodoTableTableViewController.m in Sources */,
+				BF942A3723AF97D0002347B2 /* ProgressTable.m in Sources */,
+				BF76B57A23A52B120058EAEB /* Tasks.m in Sources */,
 				BF76B56123A528250058EAEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
